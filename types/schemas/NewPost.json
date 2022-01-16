@@ -1,0 +1,21 @@
+{
+  "$id": "NewPost",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "title",
+    "rating"
+  ],
+  "additionalProperties": false
+}
